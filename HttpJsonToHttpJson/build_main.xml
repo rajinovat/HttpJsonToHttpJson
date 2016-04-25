@@ -7,7 +7,7 @@
 		<arg value="-data" />
 		<arg value="${basedir}" />
 		<arg value="-b" />
-		<arg value="${appname}-${version}.bar" />
+		<arg value="target/${appname}-${version}.bar" />
 		<arg value="-a" />
 		<arg value="${appname}" />
 		<arg value="-trace" />
@@ -56,7 +56,7 @@
 		<arg value="-w" />
 		<arg value="." />
 		<arg value="-a" />
-		<arg value="${appname}-${version}.bar" />
+		<arg value="target/${appname}-${version}.bar" />
 		<arg value="-k" />
 		<arg value="${appname}" />
 	</exec>
