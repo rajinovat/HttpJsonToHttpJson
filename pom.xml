@@ -15,16 +15,17 @@
   	<module>HttpJsonToHttpJson-TestJava</module> 
 		<module>HttpJsonToHttpJson</module>
 	</modules>
+          <properties>
+                <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+                <log4j2.version>2.5</log4j2.version>
+                <gitUrl>https://github.com/rajinovat/HttpJsonToHttpJson.git</gitUrl>
+        </properties>
+
 
         <scm>
                 <connection>scm:git:${gitUrl}</connection>
                 <developerConnection>scm:git:${gitUrl}</developerConnection>
         </scm>
-	  <properties>
-                <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-                <log4j2.version>2.5</log4j2.version>
-                <gitUrl>https://github.com/rajinovat/HttpJsonToHttpJson.git</gitUrl>
-        </properties>
 
         <distributionManagement>
                 <repository>
