@@ -10,15 +10,15 @@
 </parent>
 
 
-	<groupId>com.anz</groupId>
+
 	<artifactId>HttpJsonToHttpJson-Java</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.0.1-SNAPSHOT</version>
 
 	<dependencies>
 		<dependency>
-			<groupId>com.anz</groupId>
+			<groupId>com.anz.api</groupId>
 			<artifactId>anz-iib-commons</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>0.0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
