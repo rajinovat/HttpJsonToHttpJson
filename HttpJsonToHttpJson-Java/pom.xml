@@ -12,7 +12,7 @@
 
 
 	<artifactId>HttpJsonToHttpJson-Java</artifactId>
-	<version>${project.parent.version$}</version>
+	<version>${project.parent.version}</version>
 
 	<dependencies>
 		<dependency>
