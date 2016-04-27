@@ -6,13 +6,13 @@
 <parent>
   <groupId>com.anz.api</groupId>
   <artifactId>HttpJsonToHttpJson-Parent</artifactId>
-  <version>0.0.0.1-SNAPSHOT</version>
+  <version>${project.parent.version}</version>
 </parent>
 
 
 
 	<artifactId>HttpJsonToHttpJson-Java</artifactId>
-	<version>0.0.0.1-SNAPSHOT</version>
+	<version>${project.parent.version$}</version>
 
 	<dependencies>
 		<dependency>
