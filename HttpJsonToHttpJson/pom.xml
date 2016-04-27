@@ -5,11 +5,11 @@
   <parent>
 		<groupId>com.anz.api</groupId>
 		<artifactId>HttpJsonToHttpJson-Parent</artifactId>
-		<version>0.0.0.1-SNAPSHOT</version>
+		<version>0.0.0.2-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>HttpJsonToHttpJson</artifactId>
-	<version>0.0.0.1-SNAPSHOT</version>
+	<version>0.0.0.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<properties>
