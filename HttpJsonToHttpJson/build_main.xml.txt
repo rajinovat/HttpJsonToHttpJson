@@ -53,6 +53,7 @@
 		<fileset dir="." includes="**/zip-resources.xml" />
 	</delete>
 	-->	
+	
 	<exec executable="mqsipackagebar">
 		<arg value="-w" />
 		<arg value="." />
@@ -62,7 +63,7 @@
 		<arg value="${appname}" />
 	</exec>
 
-	<!- <copydir src="/tmp/poms/${appname}.lock" dest="."  includes="**/pom.xml" />
+	<!-- <copydir src="/tmp/poms/${appname}.lock" dest="."  includes="**/pom.xml" />
 
 	<copydir src="/tmp/poms/${appname}.lock" dest="."   includes="**/main_bootstrap.xml" />
 
