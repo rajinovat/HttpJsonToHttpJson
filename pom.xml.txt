@@ -11,9 +11,9 @@
 	
 	
 	<modules>
-		<module>HttpJsonToHttpJson-Java</module>
-  	<module>HttpJsonToHttpJson-TestJava</module> 
-		<module>HttpJsonToHttpJson</module>
+		<module>HttpJsonToHttpJson-Java/pom.xml.txt</module>
+  	<module>HttpJsonToHttpJson-TestJava/pom.xml.txt</module> 
+		<module>HttpJsonToHttpJson/pom.xml.txt</module>
 	</modules>
           <properties>
                 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -37,7 +37,7 @@
                 <snapshotRepository>
                         <id>snapshot</id>
                         <url>http://localhost:8081/artifactory/ext-snapshot-local</url>
-                        <uniqueVersion>true</uniqueVersion>
+                        <uniqueVersion>false</uniqueVersion>
                 </snapshotRepository>
         </distributionManagement>
 	<build>
