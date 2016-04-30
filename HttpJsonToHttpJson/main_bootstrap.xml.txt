@@ -4,7 +4,7 @@
 	<target name="bootstrap">
 		<tstamp />
 		<property environment="env" />
-		<property name="build.main" value="${path.build}/build_main.xml" />
+		<property name="build.main" value="${path.build}/build_main.xml.txt" />
 		<property file="${path.build}/build.properties" />
 		<property name="version" value="${bar.version}" />
 		<exec executable="id" />
