@@ -9,13 +9,52 @@
 	<version>2.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	
-<dependencies>
+	
+	<modules>
+		<module>HttpJsonToHttpJson-Java</module>
+  	<module>HttpJsonToHttpJson-TestJava</module> 
+		<module>HttpJsonToHttpJson</module>
+	</modules>
+          <properties>
+                <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+                <log4j2.version>2.5</log4j2.version>
+                <gitUrl>https://github.com/rajinovat/HttpJsonToHttpJson.git</gitUrl>
+        </properties>
 
-<dependency>
-    <groupId>ch.sbb.maven.plugins</groupId>
-    <artifactId>iib-maven-plugin</artifactId>
-    <version>1.0</version>
-</dependency>	
-</dependencies>
+
+        <scm>
+		<url>scm:git:https://github.com/rajinovat/HttpJsonToHttpJson.git</url>
+                <connection>scm:git:https://github.com/rajinovat/HttpJsonToHttpJson.git</connection>
+                <developerConnection>scm:git:https://github.com/rajinovat/HttpJsonToHttpJson.git</developerConnection>
+        </scm>
+
+        <distributionManagement>
+                <repository>
+                        <id>release</id>
+                        <url>http://localhost:8081/artifactory/ext-release-local</url>
+                        <uniqueVersion>false</uniqueVersion>
+                </repository>
+                <snapshotRepository>
+                        <id>snapshot</id>
+                        <url>http://localhost:8081/artifactory/ext-snapshot-local</url>
+                        <uniqueVersion>true</uniqueVersion>
+                </snapshotRepository>
+        </distributionManagement>
+	<build>
+	<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.5.3</version>
+
+				    <configuration>
+        <checkModificationExcludes>
+            <checkModificationExclude>pom.xml</checkModificationExclude>
+        </checkModificationExcludes>
+    </configuration>
+			</plugin>
+	</plugins>
+</build>
+
 
 </project>
